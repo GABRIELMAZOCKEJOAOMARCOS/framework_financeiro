@@ -1,0 +1,31 @@
+body{
+    background-color: gray;
+    color: black;
+  }
+  
+  h2{
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    padding: 20px;
+    
+  }
+  h2:hover{
+    border-bottom: 1px solid rgba(0, 255, 149, 0.74);
+  }
+  
+  th, td{
+    color: #ffff;
+  }
+  .card{
+    text-align: center;
+    margin-right: 10px;
+  }
+
+  nav{
+    margin-bottom: 10px;
+  }
+
+  p{
+    font-size: small;
+  }

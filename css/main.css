@@ -20,6 +20,9 @@ body{
   .card{
     text-align: center;
     margin-right: 10px;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 150px;
   }
 
   nav{
@@ -28,4 +31,7 @@ body{
 
   p{
     font-size: small;
+  }
+  button{
+    margin: 5px;
   }

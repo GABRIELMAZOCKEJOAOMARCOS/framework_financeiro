@@ -1,9 +1,3 @@
-function logincheck(){
-  if(window.localStorage.getItem("logado")==null||window.localStorage.getItem("logado")==null==""){
-      window.location.href = "logar.html";
-  }
-}
-
 function deleteLogado(){
   window.localStorage.removeItem("logado");
 }
@@ -80,7 +74,7 @@ function logar(){
 
     if(cont!=-1){
       if(usuariosGravados[cont].senha == senha){
-        if(usuariosGravados[cont].status == ativo){
+        if(usuariosGravados[cont].status == "ativo"){
           Swal.fire({
           
             icon: 'success',
